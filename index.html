@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="site de réservation et composition de menu">
+        <meta name="author" content="alexandre boistay">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5da6fe0c36.js" crossorigin="anonymous"></script>
+        <title>Oh my food</title>
+    </head>
+    <body>
+
+        <!-- loading spinner -->
+        <div class="loader">
+        <div class="spinner">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        </div>
+
+
+        <!-- Header -->
+        <header>
+            <h1>Ohmyfood</h1>
+        </header>
+
+        <main>
+
+            <!-- Section recherche ville -->
+            <div class="sélection_ville">
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <span class="sélection_ville_recherche"><input type="search" name="city" value="Paris, Belleville" placeholder="recherche ville"></span>
+            </div>
+
+            <!-- Section réservation -->
+            <div class="réservation">
+                <h2> Réservez le menu qui vous convient </h2>
+                <p>
+                     Découvrez des restaurants d'exception, sélectionnés par nos soins 
+                </p>
+                <span class="btn_réservation"><button>Explorer nos restaurants</button></span>
+            </div>
+
+            <!-- Section Fonctionnement -->
+            <section class="fonctionnement">
+                <h2>Fonctionnement</h2>
+                <ul class="fonctionnement_liste">
+                    <li>
+                        <div class="fonctionnement_liste_numéro">
+                            1
+                        </div>
+                        <div>
+                            <i class="fas fa-mobile-alt fonctionnement_liste_icone"></i>
+                        </div>
+                        <p>
+                            Choisissez un restaurant
+                        </p>
+                    </li>
+                    <li>
+                        <div class="fonctionnement_liste_numéro">
+                            2
+                        </div>
+                        <div>
+                            <i class="fas fa-list-ul fonctionnement_liste_icone"></i>
+                        </div>
+                        <p>
+                            Composez votre menu
+                        </p>
+                    </li>
+                    <li>
+                        <div class="fonctionnement_liste_numéro">
+                            3
+                        </div>
+                        <div>
+                            <i class="fas fa-store fonctionnement_liste_icone"></i>
+                        </div>
+                        <p>
+                            Dégustez au restaurant
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Section Restaurants -->
+            <section>
+                <div class="restaurant">
+                    <div class="restaurant_titre">
+                        <h2>Restaurants</h2>
+                    </div>
+                    <div class="carte">
+                        <div class="btn_carte">
+                            <span class="nouveau">Nouveau</span>
+                        </div>
+                        <a href="la_palette_du_goût.html" target="_blank">
+                            <figure>
+                                <img src="images/restaurants/la_palette_du_goût.jpg" alt="La palette du goût">
+                                <figcaption>
+                                    <div class="heart">
+                                        <h4>La palette du goût</h4>
+                                        <div class="fill_heart">
+                                            <span><i class="fill far fa-heart fa-2x"></i></span>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Ménilmontant
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="carte">
+                        <div class="btn_carte">
+                            <span class="nouveau">Nouveau</span>
+                        </div>
+                        <a href="la_note_enchantée.html" target="_blank">
+                            <figure>
+                                <img src="images/restaurants/la_note_enchantée.jpg" alt="La note enchantée">
+                                <figcaption>
+                                    <div class="heart">
+                                        <h4>La note enchantée</h4>
+                                        <div class="fill_heart">
+                                            <span><i class="fill far fa-heart fa-2x"></i></span>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Charonne
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="carte">
+                        <a href="a_la_française.html" target="_blank">
+                            <figure>
+                                <img src="images/restaurants/à_la_française.jpg" alt="A la française">
+                                <figcaption>
+                                    <div class="heart">
+                                        <h4>À la française</h4>
+                                        <div class="fill_heart">
+                                            <span><i class="fill far fa-heart fa-2x"></i></span>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Cité Rouge
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="carte">
+                        <a href="le_délice_des_sens.html" target="_blank">
+                            <figure>
+                                <img src="images/restaurants/le_délice_des_sens.jpg" alt="Le délice des sens">
+                                <figcaption>
+                                    <div class="heart">
+                                        <h4>Le délice des sens</h4>
+                                        <div class="fill_heart">
+                                            <span><i class="fill far fa-heart fa-2x"></i></span>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Folie-Méricourt
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <h3>ohmyfood</h3>
+            <ul>
+                <li>
+                    <a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a>
+                </li>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="mailto:alexandre.boistay@gmail.com">Contact</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
